@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes pizza sales data using **SQL (MySQL)** and **Power BI** to uncover valuable business insights. It features an interactive dashboard that tracks key performance indicators (KPIs), sales trends, product performance, and customer ordering patterns to support data-driven decision-making.
+This project presents an end-to-end Pizza Sales Analysis using **SQL (MySQL)** and **Power BI**. The dashboard provides interactive visualizations and key business insights by analyzing sales performance, customer ordering patterns, product performance, and time-based trends.
 
 ---
 
@@ -10,23 +10,23 @@ This project analyzes pizza sales data using **SQL (MySQL)** and **Power BI** to
 
 * Analyze overall sales performance.
 * Track revenue, orders, and pizzas sold.
-* Identify top and bottom performing pizzas.
+* Identify top and bottom-performing pizzas.
 * Analyze sales by category, size, month, day, and hour.
-* Build an interactive Power BI dashboard for business insights.
+* Build an interactive dashboard to support business decision-making.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **SQL (MySQL)** – Data Cleaning & Analysis
-* **Power BI** – Dashboard Development
-* **Excel / CSV** – Dataset
+* **SQL (MySQL)** – Data Cleaning, Joins & Analysis
+* **Power BI** – Dashboard Development & Visualization
+* **CSV** – Dataset
 
 ---
 
 ## 📂 Dataset
 
-The project uses four datasets:
+This project uses the following datasets:
 
 * `orders.csv`
 * `order_details.csv`
@@ -37,17 +37,17 @@ The project uses four datasets:
 
 ## 📊 Dashboard Pages
 
-### Executive Dashboard
+### 📌 Executive Dashboard
 
 * Total Revenue
 * Total Orders
 * Total Pizzas Sold
-* Average Order Value
+* Average Order Value (AOV)
 * Monthly Revenue Trend
-* Revenue by Category
+* Revenue by Pizza Category
 * Revenue by Pizza Size
 
-### Product Performance Analysis
+### 📌 Product Performance Analysis
 
 * Top 10 Pizzas by Revenue
 * Top 10 Pizzas by Quantity Sold
@@ -55,7 +55,7 @@ The project uses four datasets:
 * Revenue by Pizza Category
 * Revenue by Pizza Size
 
-### Time Analysis
+### 📌 Time Analysis
 
 * Monthly Sales Trend
 * Sales by Day of Week
@@ -64,7 +64,7 @@ The project uses four datasets:
 
 ---
 
-## 📈 Key KPIs
+## 📈 Key Performance Indicators (KPIs)
 
 * 💰 Total Revenue
 * 🛒 Total Orders
@@ -77,65 +77,44 @@ The project uses four datasets:
 
 ## Executive Dashboard
 
-![Executive Dashboard](Images/Executive%20Dashboard.png)
+![Executive Dashboard](Executive%20Dashboard.png)
 
 ---
 
 ## Product Performance Analysis
 
-![Products Analysis](Images/Products%20Analysis.png)
+![Products Analysis](Products%20Analysis.png)
 
 ---
 
 ## Time Analysis
 
-![Time Analysis](Images/Time%20Analysis.png)
+![Time Analysis](Time%20Analysis.png)
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Files
 
-```text
-Pizza_Sales_Analysis/
-│
-├── Dataset/
-│   ├── orders.csv
-│   ├── order_details.csv
-│   ├── pizzas.csv
-│   └── pizza_types.csv
-│
-├── SQL/
-│   └── Pizza_Sales_SQL_Queries.sql
-│
-├── PowerBI/
-│   └── Pizza_Sales_Dashboard.pbix
-│
-├── Images/
-│   ├── Executive Dashboard.png
-│   ├── Products Analysis.png
-│   └── Time Analysis.png
-│
-└── README.md
-```
+* `Pizzas_Sales_Analysis_Dashboard.pbix`
+* `Pizza_Sales_SQL_Queries.sql`
+* `orders.csv`
+* `order_details.csv`
+* `pizzas.csv`
+* `pizza_types.csv`
+* `Executive Dashboard.png`
+* `Products Analysis.png`
+* `Time Analysis.png`
 
 ---
 
-## 🚀 How to Use
 
-1. Clone or download this repository.
-2. Open the SQL queries to explore the data analysis.
-3. Open `Pizza_Sales_Dashboard.pbix` in Power BI Desktop.
-4. Refresh the data if required.
-5. Explore the interactive dashboards.
-
----
 
 ## 💡 Key Insights
 
-* Identified top-selling and low-performing pizzas.
+* Identified top-performing and low-performing pizza products.
 * Analyzed monthly, daily, and hourly sales trends.
 * Compared revenue across pizza categories and sizes.
-* Built an interactive dashboard for better business decision-making.
+* Built an interactive dashboard for data-driven business decisions.
 
 ---
 
@@ -143,4 +122,4 @@ Pizza_Sales_Analysis/
 
 **Shiwangi Chaurasiya**
 
-⭐ If you found this project useful, don't forget to give this repository a star!
+⭐ If you found this project useful, please consider giving this repository a star.
